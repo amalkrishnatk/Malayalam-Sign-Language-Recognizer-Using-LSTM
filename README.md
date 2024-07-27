@@ -8,11 +8,13 @@ an LSTM-based neural network to recognize sequential patterns, and imple￾menti
 and accurate translations, this system seeks to bridge the communication
 gap and improve accessibility for the hearing-impaired community in their
 daily interactions.
+
 • Literature Review
 Conduct a thorough review of current sign language recognition sys￾tems, focusing on the techniques and technologies used. This includes
 an analysis of the benefits and limitations of deep learning models, par￾ticularly LSTM networks, and frameworks such as MediaPipe Holistic.
 The review will identify gaps in existing research and justify the choice
 of methodologies for this project.
+
 • Data Collection and Preprocessing
 Collect a diverse dataset of dynamic sign language gestures, repre￾senting a wide range of words and phrases. Data collection will be
 performed under various conditions to ensure variability in lighting,
@@ -20,6 +22,7 @@ backgrounds, and signer characteristics. Preprocess the collected data
 using MediaPipe Holistic to extract keypoints from each video frame.
 This step ensures consistency and accuracy in gesture representation,
 converting the video data into a format suitable for model training.
+
 • Model Development
 
 Design and implement an LSTM-based neural network model capable
@@ -28,11 +31,13 @@ layers followed by dense layers to improve recognition capability. Train
 7 the model on the preprocessed dataset, using techniques such as early
 stopping and learning rate adjustments to optimize for accuracy and
 efficiency.
+
 • Evaluation and Validation
 Evaluate the trained model using metrics such as accuracy, precision,
 recall, and F1-score to measure its performance. Validation will be
 performed on a separate test dataset to ensure the model’s generalizability and robustness across different signers and conditions. This step
 includes cross-validation to verify the model’s consistency and reliability.
+
 • Real-Time Recognition Implementation
 Develop a real-time recognition system by integrating the trained model
 with a user-friendly interface. This system will process live video
